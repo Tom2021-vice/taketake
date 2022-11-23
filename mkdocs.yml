@@ -43,13 +43,13 @@ repo_name: Tom2021-vice.github.io # 右上角的名字
 # 自定义目录结构
 nav:
   - 介绍: index.md
-  - 文章: 
-    - 测试: articles\test.md
-  - C语言:
-    - main函数: articles\c-main.md
-  - hxd:
-    - 好兄弟的文采: articles\chetong\不为彼岸只为海.md
-  
+  - 测试: articles\guolu\hello.md
+  - 资源分享: articles\guolu\hello.md
+  - 好文共赏: 
+    - 不为彼岸只为海: articles\chetong\不为彼岸只为海.md
+  - 技术教程: articles\guolu\hello.md
+  - 好物推荐: articles\guolu\hello.md
+
 # Markdown语法拓展
 markdown_extensions:
   - admonition
