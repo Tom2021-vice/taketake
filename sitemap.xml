@@ -6,17 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tom2021-vice.github.io/taketake/articles/c-main/</loc>
-         <lastmod>2022-11-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://tom2021-vice.github.io/taketake/articles/test/</loc>
-         <lastmod>2022-11-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://tom2021-vice.github.io/taketake/articles/chetong/%E4%B8%8D%E4%B8%BA%E5%BD%BC%E5%B2%B8%E5%8F%AA%E4%B8%BA%E6%B5%B7/</loc>
+         <lastmod>2022-11-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tom2021-vice.github.io/taketake/articles/guolu/hello/</loc>
          <lastmod>2022-11-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
