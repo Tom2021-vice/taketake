@@ -1,12 +1,55 @@
-site_name: My Docs
+site_name: 汤姆小站
+site_url: https://tom2021-vice.github.io/taketake/
+site_author: 汤姆
+
 theme:
   name: material
-language: "zh"
+  palette: 
+    # 日间模式
+    - scheme: default 
+      primary: yellow
+      toggle:
+        icon: material/brightness-7 
+        name: 切换到夜间模式
+        accent: cyan
+ 
+    # 夜间模式
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: 切换到日间模式
+        accent: cyan
+  language: zh # 一些提示性的文字会变成中文
+  features: 
+    - navigation.instant   #- header.autohide  #自动隐藏
+    #- announce.dismiss   #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    - navigation.tracking   #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    #- navigation.tabs   #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    #- navigation.tabs.sticky    #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    #- navigation.sections   #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top   # 返回顶部的按钮 在上滑时出现
+    - search.suggest   # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight   # 搜索出的文章关键词加入高亮
+    #- navigation.expand   # 打开Tab时左侧目录全部展开
+    #- navigation.indexes   #启用节索引页后，可以将文档直接附加到节
+    - search.share   #搜索分享按钮
+  icon: 
+    repo: fontawesome/brands/github #右上角图标
+edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+repo_url: https://github.com/Tom2021-vice/taketake # 右上角点击跳转的链接
+repo_name: Tom2021-vice.github.io # 右上角的名字
+
 # 自定义目录结构
 nav:
   - 介绍: index.md
   - 文章: 
     - 测试: articles\test.md
+  - C语言:
+    - main函数: articles\c-main.md
+  - hxd:
+    - 好兄弟的文采: articles\chetong\不为彼岸只为海.md
+  
 # Markdown语法拓展
 markdown_extensions:
   - admonition
@@ -33,3 +76,21 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
+
+#左下角的版权声明
+copyright: Copyright &copy; 2022汤姆
+
+plugins:
+  - search
+  - tags  #标签
+
+#左下角的联系方式
+extra:
+  generator: false  #删除页脚显示“Made with Material for MkDocs Insiders”
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Tom2021-vice
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/446115938?spm_id_from=333.999.0.0
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<1340974656@qq.com> 
