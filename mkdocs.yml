@@ -49,7 +49,9 @@ nav:
     - 不为彼岸只为海: articles\chetong\不为彼岸只为海.md
   - 技术教程: articles\guolu\hello.md
   - 好物推荐: articles\guolu\hello.md
-  - 环境生态学: articles\guolu\第一章-对物理环境的适应：水和营养物质.md
+  - 环境生态学: 
+    - 第一章-对物理环境的适应：水和营养物质: articles\guolu\第一章-对物理环境的适应：水和营养物质.md
+    - 第二章-对物理环境的适应：光，能量和热量: articles\guolu\第二章-对物理环境的适应：光，能量和热量.md
 
 # Markdown语法拓展
 markdown_extensions:
@@ -93,3 +95,4 @@ extra:
       link: https://space.bilibili.com/446115938?spm_id_from=333.999.0.0
     - icon: fontawesome/solid/paper-plane
       link: mailto:<1340974656@qq.com> 
+
