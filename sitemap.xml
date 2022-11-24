@@ -2,22 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tom2021-vice.github.io/taketake/</loc>
-         <lastmod>2022-11-23</lastmod>
+         <lastmod>2022-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tom2021-vice.github.io/taketake/articles/chetong/%E4%B8%8D%E4%B8%BA%E5%BD%BC%E5%B2%B8%E5%8F%AA%E4%B8%BA%E6%B5%B7/</loc>
-         <lastmod>2022-11-23</lastmod>
+         <lastmod>2022-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tom2021-vice.github.io/taketake/articles/guolu/demo/</loc>
+         <lastmod>2022-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tom2021-vice.github.io/taketake/articles/guolu/hello/</loc>
-         <lastmod>2022-11-23</lastmod>
+         <lastmod>2022-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tom2021-vice.github.io/taketake/articles/guolu/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%AF%B9%E7%89%A9%E7%90%86%E7%8E%AF%E5%A2%83%E7%9A%84%E9%80%82%E5%BA%94%EF%BC%9A%E6%B0%B4%E5%92%8C%E8%90%A5%E5%85%BB%E7%89%A9%E8%B4%A8/</loc>
-         <lastmod>2022-11-23</lastmod>
+         <lastmod>2022-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tom2021-vice.github.io/taketake/articles/guolu/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%AF%B9%E7%89%A9%E7%90%86%E7%8E%AF%E5%A2%83%E7%9A%84%E9%80%82%E5%BA%94%EF%BC%9A%E5%85%89%EF%BC%8C%E8%83%BD%E9%87%8F%E5%92%8C%E7%83%AD%E9%87%8F/</loc>
+         <lastmod>2022-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
