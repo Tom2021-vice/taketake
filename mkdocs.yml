@@ -1,50 +1,164 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
 site_name: 汤姆小站
 site_url: https://tom2021-vice.github.io/taketake/
 site_author: 汤姆
+site_description: >-
+  Create a branded static site from a set of Markdown files to host the
+  documentation of your Open Source or commercial project
+# Repository
+repo_name: Tom2021-vice.github.io
+repo_url: https://github.com/Tom2021-vice/taketake
 
+# Copyright
+copyright: Copyright &copy; 2022 汤姆
+
+# Configuration
 theme:
   name: material
-  palette: 
-    # 日间模式
-    - scheme: default 
-      primary: yellow
+  # custom_dir: sources
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  language: zh
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/brightness-7 
-        name: 切换到夜间模式
-        accent: cyan
- 
-    # 夜间模式
+        icon: material/brightness-7
+        name: Switch to dark mode
     - scheme: slate
-      primary: black
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: 切换到日间模式
-        accent: cyan
-  language: zh # 一些提示性的文字会变成中文
-  features: 
-    - navigation.instant   #- header.autohide  #自动隐藏
-    #- announce.dismiss   #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    - navigation.tracking   #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-    #- navigation.tabs   #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-    #- navigation.tabs.sticky    #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
-    #- navigation.sections   #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
-    - navigation.top   # 返回顶部的按钮 在上滑时出现
-    - search.suggest   # 搜索输入一些字母时推荐补全整个单词
-    - search.highlight   # 搜索出的文章关键词加入高亮
-    #- navigation.expand   # 打开Tab时左侧目录全部展开
-    #- navigation.indexes   #启用节索引页后，可以将文档直接附加到节
-    - search.share   #搜索分享按钮
-  icon: 
-    repo: fontawesome/brands/github #右上角图标
-edit_uri: edit/main/docs # 编辑按钮跳转的链接 
-repo_url: https://github.com/Tom2021-vice/taketake # 右上角点击跳转的链接
-repo_name: Tom2021-vice.github.io # 右上角的名字
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
 
-# 自定义目录结构
+# Plugins
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Tom2021-vice
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/446115938?spm_id_from=333.999.0.0
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<1340974656@qq.com> 
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+# Page tree
 nav:
   - 介绍: index.md
   - 测试: articles\guolu\hello.md
-  - 资源分享: articles\guolu\hello.md
+  - 资源分享: 
+    - demo: articles\guolu\demo.md
   - 好文共赏: 
     - 不为彼岸只为海: articles\chetong\不为彼岸只为海.md
   - 技术教程: articles\guolu\hello.md
@@ -53,46 +167,8 @@ nav:
     - 第一章-对物理环境的适应：水和营养物质: articles\guolu\第一章-对物理环境的适应：水和营养物质.md
     - 第二章-对物理环境的适应：光，能量和热量: articles\guolu\第二章-对物理环境的适应：光，能量和热量.md
 
-# Markdown语法拓展
-markdown_extensions:
-  - abbr
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - md_in_html
-  - pymdownx.arithmatex:  # latex支持
-      generic: true
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
-      anchor_linenums: true
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # 代码块高亮插件
-  - meta # 支持Markdown文件上方自定义标题标签等
-
-#左下角的版权声明
-copyright: Copyright &copy; 2022汤姆
-
-plugins:
-  - search
-  - tags  #标签
-
-#左下角的联系方式
-extra:
-  generator: false  #删除页脚显示“Made with Material for MkDocs Insiders”
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Tom2021-vice
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/446115938?spm_id_from=333.999.0.0
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:<1340974656@qq.com> 
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
