@@ -1,4 +1,4 @@
-<center><b>致XXX的小可爱们</b></center>
+<center><b>致网宣部的小可爱们</b></center>
 
 # 工欲善其事必先利其器
 Adobe Creative Suite是Adobe系统公司出品的一个图形设计、影像编辑与网络开发的软件产品套装。该套装的最高版本是Adobe Creative Cloud。
@@ -89,5 +89,58 @@ Adobe Creative Suite是Adobe系统公司出品的一个图形设计、影像编�
     硬盘空间；32 位安装需要 2.6 GB 或更大可用硬盘空间；64 位安装需要 3.1 GB 或更大可用硬盘空间；安装过程中会需要更多可用空间（无法在使用区分大小写的文件系统的卷上安装）
 ```
 
+```c title='Premiere Pro 2022'
+简介:Adobe Premiere Pro，简称Pr，是由Adobe公司开发的一款视频编辑软件。常用的版本有CS4、CS5、CS6、CC 2014、CC 2015、CC 2017、CC 2018、CC 2019、CC2020、CC2021以及2022版本。
+提供的版本:Windows
+最低配置要求:
+    处理器:Intel® 第 6 代或更新版本的 CPU，或 AMD Ryzen™ 1000 系列或更新版本的 CPU
+    操作系统:Windows 10（64 位）V20H2 或更高版本Premiere Pro 版本 22.0 及更高版本与 Windows 11 操作系统兼容。对于带有 NVIDIA Gpu 的系统，Windows 11 需要使用 NVIDIA 驱动程序版本 472.12 或更高版本。
+    操作系统:Windows 10（64 位）V20H2 或更高版本[Premiere Pro 版本 22.0 及更高版本与 Windows 11 操作系统兼容。对于带有 NVIDIA Gpu 的系统，Windows 11 需要使用 NVIDIA 驱动程序版本 472.12 或更高版本。]
+    内存:8 GB RAM
+    GPU:2 GB GPU  [Adobe Premiere Pro 支持的显卡](https://helpx.adobe.com/cn/premiere-pro/system-requirements.html?promoid=91BF4XW1&mv=other#gpu-acceleration)
+    存储:8 GB 可用硬盘空间用于安装；安装期间所需的额外可用空间（不能安装在可移动闪存存储器上）,用于媒体的额外高速驱动器
+推荐配置:
+    处理器:具有快速同步功能的 Intel® 第七代或更新版本的 CPU，或 AMD Ryzen™ 3000 系列/Threadripper 2000 系列或更新版本的 CPU
+    操作系统:Microsoft Windows 10（64 位）V20H2 或更高版本
+    内存:双通道内存：16 GB RAM，用于 HD 媒体32 GB 或以上，适用于 4K 及更高分辨率
+    GPU:4 GB GPU 内存，适用于 HD 和某些 4K 媒体6 GB 或以上，适用于 4K 和更高分辨率[Adobe Premiere Pro 支持的显卡](https://helpx.adobe.com/cn/premiere-pro/system-requirements.html?promoid=91BF4XW1&mv=other#gpu-acceleration)
+    存储:用于应用程序安装和缓存的快速内部 SSD
+    用于媒体的额外高速驱动器
+```
+
+```c title='Premiere Pro 2021'
+简介:Adobe Premiere Pro，简称Pr，是由Adobe公司开发的一款视频编辑软件。常用的版本有CS4、CS5、CS6、CC 2014、CC 2015、CC 2017、CC 2018、CC 2019、CC2020、CC2021以及2022版本。
+提供的版本:Windows
+最低配置要求:
+    处理器:Intel® 第 6 代或更新版本的 CPU，或 AMD Ryzen™ 1000 系列或更新版本的 CPU
+    操作系统:Microsoft Windows 10（64 位）版本 1903 或更高版本
+    内存:8 GB RAM
+    GPU:2 GB GPU VRAM  [Adobe Premiere Pro 支持的显卡](https://helpx.adobe.com/cn/premiere-pro/system-requirements.html?promoid=91BF4XW1&mv=other#gpu-acceleration)
+    存储:8 GB 可用硬盘空间用于安装；安装期间所需的额外可用空间（不能安装在可移动闪存存储器上）,用于媒体的额外高速驱动器
+推荐配置:
+    处理器:Intel® 第 7 代或更新版本的 CPU，或 AMD Ryzen™ 3000 系列或更新版本的 CPU
+    操作系统:Microsoft Windows 10（64 位）版本 1903 或更高版本
+    内存:16 GB RAM，用于 HD 媒体32 GB，用于 4K 媒体或更高分辨率
+    GPU:4 GB GPU VRAM[Adobe Premiere Pro 支持的显卡](https://helpx.adobe.com/cn/premiere-pro/system-requirements.html?promoid=91BF4XW1&mv=other#gpu-acceleration)
+    存储:用于应用程序安装和缓存的快速内部 SSD
+    用于媒体的额外高速驱动器
+```
+
+```c title='Premiere Pro 2018'
+简介:Adobe Premiere Pro，简称Pr，是由Adobe公司开发的一款视频编辑软件。常用的版本有CS4、CS5、CS6、CC 2014、CC 2015、CC 2017、CC 2018、CC 2019、CC2020、CC2021以及2022版本。
+提供的版本:Windows
+最低配置要求:
+    处理器:Intel® Core™2 双核以上或 AMD 羿龙®2及以上处理器；
+    操作系统:Microsoft ® Windows®7 ServicePack 1或Windows 10 Version 1703及以上
+    内存:4.00GB的 RAM
+    GPU:2 GB GPU VRAM  
+    存储:4.00GB的可用硬盘空间用于安装
+推荐配置:
+    处理器:Intel® Core™2 双核以上或 AMD 羿龙®2及以上处理器；
+    操作系统:Microsoft ® Windows®7 ServicePack 1或Windows 10 Version 1703及以上
+    内存:4.00GB的 RAM
+    GPU:4 GB GPU VRAM
+    存储:用于应用程序安装和缓存的快速内部 SSD 用于媒体的额外高速驱动器
+```
 
 
